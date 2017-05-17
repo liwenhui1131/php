@@ -1,10 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: admin
- * Date: 2017/5/16
- */
-?>
 <!DOCTYPE html >
 <html lang="en">
 <head>

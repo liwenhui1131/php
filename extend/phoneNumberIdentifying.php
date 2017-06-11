@@ -1,4 +1,10 @@
-﻿<!DOCTYPE HTML >
+﻿<?php
+/**
+ * @auther 李文辉 <lwh1131@outlook.com>
+ * @copyright 2014-2017 海量云图（北京）数据技术有限公司
+ * */
+?>
+<!DOCTYPE HTML >
 <html>
 <head>
     <title> New Document </title>
@@ -49,7 +55,9 @@
                 test.init(btn);
             };
         });
-        /*
+
+        /**
+         *
          *检测电话号码是否正确的函数
          * @param tel
          */

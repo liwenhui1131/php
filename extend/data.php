@@ -1,8 +1,9 @@
 <?php
 /**
- * php 中时间函数date及常用的时间计算
- * @author liwenhui <lwh1131@outlook.com>
- */
+ *  php 中时间函数date及常用的时间计算
+ * @auther 李文辉 <lwh1131@outlook.com>
+ * @copyright 2014-2017 海量云图（北京）数据技术有限公司
+ * */
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +15,8 @@
 
 <?php
 $times = [];
-/*
+
+/**
 *获取时间的函数
 * @return Array 时间数组
 */

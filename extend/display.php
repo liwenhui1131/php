@@ -1,7 +1,7 @@
 <?php
-/*
- *
- * @author liwenhui <lwh1131@outlook.com>
+/**
+ * @auther 李文辉 <lwh1131@outlook.com>
+ * @copyright 2014-2017 海量云图（北京）数据技术有限公司
  */
 ?>
 <!doctype html>

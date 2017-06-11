@@ -1,6 +1,7 @@
 <?php
-/*
- * @auther liwenhui <lwh1131@outlook.com>
+/**
+ * @auther 李文辉 <lwh1131@outlook.com>
+ * @copyright 2014-2017 海量云图（北京）数据技术有限公司
  * */
 ?>
 <!DOCTYPE html>
@@ -14,8 +15,8 @@
 <h2>Current To-Do List</h2>
 <?php
 
-/*
- * make_list 函数把数组的元素打印成列表
+/**
+ * 把数组的元素打印成列表
  * @parame $parent
  * */
 function make_list($parent)

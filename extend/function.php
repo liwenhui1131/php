@@ -1,3 +1,9 @@
+<?php
+/**
+ * @auther 李文辉 <lwh1131@outlook.com>
+ * @copyright 2014-2017 海量云图（北京）数据技术有限公司
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +12,7 @@
 </head>
 <body>
 <?
-/*
+/**
  * PHP加密解密
  * @param $key
  * @param $string
@@ -27,7 +33,7 @@ function encryptDecrypt($key, $string, $decrypt)
 echo encryptDecrypt('password', 'Helloweba欢迎您', 0);
 echo encryptDecrypt('password', 'z0JAx4qMwcF+db5TNbp/xwdUM84snRsXvvpXuaCa4Bk=', 1);
 
-/*
+/**
  * PHP生成随机字符串
  * @param $length
  * @return $randomString
@@ -45,7 +51,7 @@ function generateRandomString($length = 10)
 $filename = '我的文档.doc';
 echo getExtension($filename);
 
-/*
+/**
  * PHP获取文件大小并格式化
  * @param $size
  * @return $result
@@ -63,7 +69,7 @@ function formatSize($size)
 $thefile = filesize('test_file.mp3');
 echo formatSize($thefile);
 
-/*
+/**
  * PHP替换标签字符
  * @param $string
  * @param $replacer
@@ -80,7 +86,7 @@ $replace_array = array('{b}' => '<b>', '{/b}' => '</b>', '{br}' => '<br />');
 
 echo stringParser($string, $replace_array);
 
-/*
+/**
  * PHP列出目录下的文件名
  * @param $DirPath
  */

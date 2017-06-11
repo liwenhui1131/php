@@ -1,3 +1,9 @@
+<?php
+/**
+ * @auther 李文辉 <lwh1131@outlook.com>
+ * @copyright 2014-2017 海量云图（北京）数据技术有限公司
+ */
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,11 +13,11 @@
 <body>
 <?php
 
-/* Class Pet.
+/**
+ *Class Pet.
  *  The class contains one attribute: name.
  *  The class contains four methods:
  */
-
 class Pet
 {
     public $name;
@@ -38,9 +44,10 @@ class Pet
     }
 } // End of Pet class.
 
-/* Cat class extends Pet.
- * Cat overrides play().
- */
+/* *
+*Cat class extends Pet.
+* Cat overrides play().
+*/
 
 class Cat extends Pet
 {
@@ -54,48 +61,42 @@ class Cat extends Pet
     }
 } // End of Cat class.
 
-/* Dog class extends Pet.
- * Dog overrides play().
- */
+/* *
+*Dog class extends Pet.
+* Dog overrides play().
+*/
 
 class Dog extends Pet
 {
     function play()
     {
 
-        // Call the Pet::play() method:
-        parent::play();
+        parent::play(); // Call the Pet::play() method:
 
         echo "<p>$this->name is fetching.</p>";
     }
 } // End of Dog class.
 
-// Create a dog:
-$dog = new Dog('Satchel');
 
-// Create a cat:
-$cat = new Cat('Bucky');
+$dog = new Dog('Satchel');// Create a dog:
 
-// Create an unknown type of pet:
-$pet = new Pet('Rob');
+$cat = new Cat('Bucky');// Create a cat:
 
-// Feed them:
-$dog->eat();
+$pet = new Pet('Rob');// Create an unknown type of pet:
+
+$dog->eat();// Feed them:
 $cat->eat();
 $pet->eat();
 
-// Nap time:
-$dog->sleep();
+$dog->sleep();// Nap time:
 $cat->sleep();
 $pet->sleep();
 
-// Have them play:
-$dog->play();
+$dog->play();// Have them play:
 $cat->play();
 $pet->play();
 
-// Delete the objects:
-unset($dog, $cat, $pet);
+unset($dog, $cat, $pet);// Delete the objects:
 
 ?>
 </body>

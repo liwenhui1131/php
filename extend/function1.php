@@ -1,7 +1,7 @@
-<?
-/*
- * 一些自定义的方法
- * @author 李文辉
+<?php
+/**
+ * @auther 李文辉 <lwh1131@outlook.com>
+ * @copyright 2014-2017 海量云图（北京）数据技术有限公司
  */
 ?>
 <!DOCTYPE html>
@@ -12,7 +12,7 @@
 </head>
 <body>
 <?php
-/*
+/**
  * 把一些预定义的字符转换为 HTML 实体
  * @param string $string
  * @return string $string
@@ -34,10 +34,10 @@ function d_htmlspecialchars($string)
     return $string;
 }
 
-/*
+/**
  * 在预定义字符前加上反斜杠，包括 单引号、双引号、反斜杠、NULL，以保护数据库安全
  * @param string $string
- *  @param number $force
+ * @param number $force
  * @return string $string
  */
 function d_addslashes($string, $force = 0)
@@ -50,9 +50,9 @@ function d_addslashes($string, $force = 0)
     return $string;
 }
 
-/*
+/**
  * 生成随机字符串，包含大写、小写字母、数字
- *  @param number $length
+ * @param number $length
  * @return $hash
  */
 function randstr($length)
@@ -67,7 +67,7 @@ function randstr($length)
     return $hash;
 }
 
-/*
+/**
  * 获取IP
  * @return string $ip
  */
@@ -90,7 +90,7 @@ function get_ip()
     return $ip;
 }
 
-/*
+/**
  * 获取当前页面的URL地址
  * @return string $return_url
  */
